@@ -1,0 +1,11 @@
+# 請寫一支Python程式，能讀取兩個整數，並把他們的四則運算印出來。(提示: 用input()印出來的東西是字串, 記得轉型噢!)
+a = int(input('first int= '))
+b = int(input('second int= '))
+print(a, "+ ", b, "=", a+b)
+print(a, "- ", b, "=", a-b)
+print(a, "* ", b, "=", a*b)
+print(a, "/ ", b, "=", a/b)
+
+print(a, "//", b, "=", a//b)
+print(a, "% ", b, "=", a%b)
+print(a, "**", b, "=", a**b)
